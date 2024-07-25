@@ -1,11 +1,9 @@
 ---
-title: "lypechvattana.github.io"
+title: "ប្រធានបទ"
+listing:
+  contents: blog
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: true
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```

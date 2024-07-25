@@ -1,9 +1,37 @@
 ---
-title: "About"
+title: "LY Pechvattana"
+about:
+  template: trestles
+  image: Image/profile.png
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
 ---
+LY Pechvattana is a graduate student. His main research interest in spacecraft guidance, navigation, and control system.
 
-About this site
+## Education
 
-```{r}
-1 + 1
-```
+**Kasertsart Univeristy | Siracha, Thailand** <br>
+Ms in Mechanical and Design | June 2024 - June 2015
+
+**Ecam LaSalle | Lyon, France** <br>
+BA in Robotic and Automation Engineering | Nov 2022 - July 2024  <br>
+• Awarded Erasmus+ Scholarship for study exhange in France | Jan 2024 - Jun 2024
+
+**Institute of Technology of Cambodia | Phnom Penh, Cambodia** <br>
+BEng in Industrial and Mechanical Engineering | Nov 2019 - July 2024
+
+## Experience
+
+**Undergratuade Researcher** <br>
+Dynamics and Control Laboratory | Phnom Penh, Cambodia <br>
+June 2018 - present
+
+**Robotic Laboratory Intern** <br>
+Kasersart University | Bangkok, Thailand <br>
+June 2018 - present
+

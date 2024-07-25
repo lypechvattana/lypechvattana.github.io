@@ -2,16 +2,19 @@ project:
   type: website
 
 website:
-  title: "lypechvattana.github.io"
+  title: "LY Pechvattana"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+
+site-url: "https://lypechvattana.github.io" 
 
 format:
   html:
-    theme: cosmo
+    theme: Simplex
     css: styles.css
     toc: true
 
