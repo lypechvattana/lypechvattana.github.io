@@ -11,8 +11,6 @@ website:
       - href: about.qmd
         text: About
 
-site-url: "https://lypechvattana.github.io" 
-
 format:
   html:
     theme: Simplex
