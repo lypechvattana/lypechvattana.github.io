@@ -1,7 +1,0 @@
----
-title: "What is Mechatronic Engineer?"
-date: 2024-07-25
-categories: [Mechatronic, Engineering]
----
-
-This is the content of my first blog post.

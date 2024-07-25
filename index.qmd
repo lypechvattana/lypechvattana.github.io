@@ -1,9 +1,0 @@
----
-title: "ប្រធានបទ"
-listing:
-  contents: blog
-  sort: "date desc"
-  type: grid
-  categories: true
-  feed: true
----
