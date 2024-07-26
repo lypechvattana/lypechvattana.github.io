@@ -13,6 +13,6 @@ website:
 
 format:
   html:
-    theme: Simplex
+    theme: Cosmo
     css: styles.css
     toc: true

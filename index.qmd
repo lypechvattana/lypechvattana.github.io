@@ -1,9 +1,25 @@
 ---
-title: "ប្រធានបទ"
+title: "LY Pechvattana"
+subtitle: Eudaimonia 🔭 <br> <br> <br> <br>
+title-block-style: default
+title-block-banner: Image/black-bg-2.png
+title-block-banner-color: white
+page-layout: full
+#listing:
+#  contents: blog
+#  sort: "date desc"
+#  type: grid
+#  categories: true
+#  feed: true
 listing:
   contents: blog
   sort: "date desc"
+  image-align: left
+  categories: false
   type: grid
-  categories: true
-  feed: true
+  # sort-ui: true
+  # filter-ui: true
+  table-hover: true
+  max-description-length: 100
+  fields: [image, date, title, author, reading-time, description, categories]
 ---

@@ -1,0 +1,8 @@
+---
+title: "A guide for writing engineering thesis for ITC students"
+date: 2024-07-25
+categories: [Thesis, Engineering]
+author: LY Pechvattana
+---
+
+This guide aims to provide an standard format and tips to write a correct thesis report. Keep in mind that is guide is apply to only the students from Institute of Technology of Cambodia, mainly the department of Industrial and Mechanical engineering. Although the guideline is applied to all and each  
