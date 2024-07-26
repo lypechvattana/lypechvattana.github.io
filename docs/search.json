@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "LY Pechvattana",
     "section": "",
-    "text": "A guide for writing engineering thesis for ITC students\n\n\n1 min\n\n\n\nThesis\n\n\nEngineering\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nJul 25, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "A guide for using Latex for Engineering Thesis\n\n\n1 min\n\n\n\nThesis\n\n\nEngineering\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nJul 25, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -30,8 +30,15 @@
   {
     "objectID": "blog/2024-07-25-itc_thesis.html",
     "href": "blog/2024-07-25-itc_thesis.html",
-    "title": "A guide for writing engineering thesis for ITC students",
+    "title": "A guide for using Latex for Engineering Thesis",
     "section": "",
-    "text": "This guide aims to provide an standard format and tips to write a correct thesis report. Keep in mind that is guide is apply to only the students from Institute of Technology of Cambodia, mainly the department of Industrial and Mechanical engineering. Although the guideline is applied to all and each"
+    "text": "Before we begin, I’d like to clarify that this is personal advice based on my experience. Although all of the departments at Institute of Technology of Cambodia(ITC) follow the same format, differences do exist. This guide is mainly based on department of Industrial and Mechanical Engineering’s requirements."
+  },
+  {
+    "objectID": "blog/2024-07-25-itc_thesis.html#why-you-should-use-latex",
+    "href": "blog/2024-07-25-itc_thesis.html#why-you-should-use-latex",
+    "title": "A guide for using Latex for Engineering Thesis",
+    "section": "Why you should use Latex?",
+    "text": "Why you should use Latex?\nLatex is far more difficult to use than Microsoft Word, particularly for beginners. However, when writing an engineering thesis, where a slight shift in alignment by 1 point is considered a mistake, it is more convenient. Especially if the school has a pre-designed template, you don’t need much coding knowledge to use it. This guideline will explain a few commands you’ll need to know in order to complete your thesis."
   }
 ]

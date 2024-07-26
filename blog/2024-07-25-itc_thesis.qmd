@@ -6,4 +6,14 @@ categories: [Thesis, Engineering]
 author: LY Pechvattana
 ---
 
-This guide aims to provide an standard format and tips to write a correct thesis report. Keep in mind that is guide is apply to only the students from Institute of Technology of Cambodia, mainly the department of Industrial and Mechanical engineering. Although the guideline is applied to all  
+Before we begin, I'd like to clarify that this is personal advice based on my experience. Although all of the departments at Institute of Technology of Cambodia(ITC) follow the same format, differences do exist. This guide is mainly based on department of Industrial and Mechanical Engineering's requirements.
+
+#### Objectives of this guideline
+1. To show how to use ITC Latex template for engineering thesis on Overleaf.
+2. To guide you on how to label equation, table, figure correctly.
+3. Frequence mistakes that you need to watch out.
+
+## Why you should use Latex?
+Latex is far more difficult to use than Microsoft Word, particularly for beginners. However, when writing an engineering thesis, where a slight shift in alignment by 1 point is considered a mistake, it is more convenient. Especially if the school has a pre-designed template, you don't need much coding knowledge to use it. This guideline will explain a few commands you'll need to know in order to complete your thesis.
+
+## [The Author is lazy, he will finish the article later.]
