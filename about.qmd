@@ -16,10 +16,12 @@ LY Pechvattana is a graduate student. His main research interest in spacecraft g
 ## Education
 
 **Kasertsart Univeristy | Siracha, Thailand** <br>
-Ms in Mechanical and Design | June 2024 - June 2015
+Ms in Mechanical and Design | June 2024 - June 2025
+• *Research Topic: Spacecraft Guidance, Navigation, and Control (GN&C)* <br>
 
 **Double Degree Program, Ecam LaSalle | Lyon, France** <br>
 BA in Robotic and Automation Engineering | Nov 2022 - July 2024  <br>
+• *Doul-Degree International Program* <br>
 • *One semester exhcnage in France* <br>
 • *Award: Erasmus+ Scholarship | Jan 2024 - Jun 2024*
 
@@ -30,9 +32,10 @@ BEng in Industrial and Mechanical Engineering | Nov 2019 - July 2024
 
 **Undergratuade Research Student** <br>
 Dynamics and Control Laboratory, Phnom Penh, Cambodia | November 2020 - June 2024<br>
-
+• *Research Topic: Spacecraft Guidance, Navigation, and Control (GN&C)* <br>
+• *Responsibilities: Solid Propulsion Design, Propulsion Test Bench Design, Rocket State Estimation* <br>
 
 **Robotic Laboratory Intern** <br>
 Kasersart University, Bangkok, Thailand | June 2018 - Present<br>
-
+• *Project: Design and development of AGV robot using ROS.* <br>
 
