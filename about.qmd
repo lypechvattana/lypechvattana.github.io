@@ -4,12 +4,12 @@ about:
   template: trestles
   image: Image/profile.png
   links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/ly-pechvattana/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/orgs/lypechvattana/repositories
 ---
 LY Pechvattana is a graduate student. His main research interest in spacecraft guidance, navigation, and control system.
 
