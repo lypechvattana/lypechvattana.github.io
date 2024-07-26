@@ -1,5 +1,6 @@
 ---
 title: "A guide for writing engineering thesis for ITC students"
+image: ../blog-image/website_thumbnail.jpg
 date: 2024-07-25
 categories: [Thesis, Engineering]
 author: LY Pechvattana
