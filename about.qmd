@@ -13,11 +13,11 @@ about:
 ---
 LY Pechvattana is a graduate student. His main research interest in spacecraft guidance, navigation, and control system.
 
-## Education
+## Publications
+**Unknown Input Thrust Estimation using Extended Kalman Filter for a Sounding Rocket** <be>
+Published in The 6th Kasetsart University Sriracha Campus International Conference (KU-IC)
 
-**Kasertsart Univeristy | Siracha, Thailand** <br>
-Ms in Mechanical and Design | June 2024 - June 2025
-• *Research Topic: Spacecraft Guidance, Navigation, and Control (GN&C)* <br>
+## Education
 
 **Double Degree Program, Ecam LaSalle | Lyon, France** <br>
 BA in Robotic and Automation Engineering | Nov 2022 - July 2024  <br>
@@ -26,7 +26,7 @@ BA in Robotic and Automation Engineering | Nov 2022 - July 2024  <br>
 • *Award: Erasmus+ Scholarship | Jan 2024 - Jun 2024*
 
 **Institute of Technology of Cambodia | Phnom Penh, Cambodia** <br>
-BEng in Industrial and Mechanical Engineering | Nov 2019 - July 2024
+Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024
 
 ## Experience
 
