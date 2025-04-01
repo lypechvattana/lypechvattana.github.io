@@ -42,7 +42,7 @@ Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024
 • Developing rocket structures for improved performance and stability
 • Conducting and documenting ground tests and flight tests
 • Integrating and managing ground and flight electronics
-
+:::::
 
 **Robotic Laboratory Intern** <br>
 Kasersart University, Bangkok, Thailand | June 2018 - Present<br>
