@@ -29,15 +29,15 @@ Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024
 
 # Experience
 
-### **Dynamics and Control Laboratory (DCLab)**  
+**Dynamics and Control Laboratory (DCLab)**  
 <div style="border-left: 3px solid #ccc; padding-left: 15px; margin-bottom: 20px;">
-#### **Research Assistant** *(Full-time)*  
+**Research Assistant** *(Full-time)*  
 🗓 *Aug 2024 – Present* | 📍 *Phnom Penh, Cambodia*  
 • Project planning and tracking on rocket project development and launch 
 • Integrating avionic with sensors and communication to ground station
 
-#### **Undergraduate Research Student** *(Internship)*  
-🗓 *Oct 2021 – Jul 2024 | 📍 *Cambodia*  
+ **Undergraduate Research Student** *(Internship)*  
+🗓 *Oct 2021 – Jul 2024* | 📍 *Cambodia*  
 • Designing and testing solid rocket propulsion systems
 • Developing rocket structures for improved performance and stability
 • Conducting and documenting ground tests and flight tests
