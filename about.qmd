@@ -29,10 +29,13 @@ Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024
 
 ## Experience
 
-**Undergratuade Research Student** <br>
-Dynamics and Control Laboratory, Phnom Penh, Cambodia | November 2020 - June 2024<br>
-• *Research Topic: Spacecraft Guidance, Navigation, and Control (GN&C)* <br>
-• *Responsibilities: Solid Propulsion Design, Propulsion Test Bench Design, Rocket State Estimation* <br>
+**Dynamics and Control Laboratory, Institute of Technology of Cambodia, Phnom Penh, Cambodia ** <br>
+Undergratuade Research Student | October 2021 - July 2024 <br>
+> • *Research Topic: Spacecraft Guidance, Navigation, and Control (GN&C)* <br>
+> • *Responsibilities: Solid Propulsion Design, Propulsion Test Bench Design, Rocket State Estimation* <br>
+
+Research Assistance| July 20 - June 2024 <br>
+> • *Project planning and tracking on rocket project development and launch* <br>
 
 **Robotic Laboratory Intern** <br>
 Kasersart University, Bangkok, Thailand | June 2018 - Present<br>
