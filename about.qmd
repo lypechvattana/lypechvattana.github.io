@@ -29,10 +29,8 @@ Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024
 
 # Experience
 
+### **Dynamics and Control Laboratory (DCLab)**  
 <div style="border-left: 3px solid #ccc; padding-left: 15px; margin-bottom: 20px;">
-  
-**Dynamics and Control Laboratory (DCLab)**  
-
 #### **Research Assistant** *(Full-time)*  
 🗓 *Aug 2024 – Present* | 📍 *Phnom Penh, Cambodia*  
 • Project planning and tracking on rocket project development and launch 
