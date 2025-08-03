@@ -163,7 +163,8 @@ ul.task-list li input[type="checkbox"] {
 <li>MATLAB 2023b | <a href="https://www.mathworks.com/help/releases/R2023b/index.html">Document</a></li>
 <li>Visual Studio 2019 | <a href="https://visualstudio.microsoft.com/vs/older-downloads/">Download</a></li>
 <li>UAV Toolbox | <a href="https://www.mathworks.com/hardware-support/px4-autopilots.html">Download}</a></li>
-<li>PX4 Firmware v1.12.3 | <a href="https://github.com/PX4/PX4-windows-toolchain/releases/tag/v0.8">Download</a></li>
+<li>PX4 Firmware v1.12.3 (Cygwin) | <a href="https://github.com/PX4/PX4-windows-toolchain/releases/tag/v0.8">Download</a></li>
+<li>QGroundControl | <a href="https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html">Download</a></li>
 <li>Git | <a href="https://git-scm.com/downloads">Download</a></li>
 </ol>
 </section>
@@ -199,6 +200,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="use-cygwin-toolchain-to-build-px4-on-windows" class="level2">
 <h2 class="anchored" data-anchor-id="use-cygwin-toolchain-to-build-px4-on-windows">2. Use Cygwin Toolchain to Build PX4 on Windows</h2>
+<ol type="1">
+<li>Install Cygwin from <a href="https://github.com/PX4/PX4-windows-toolchain/releases/tag/v0.8">here</a></li>
+<li>Download PX4 Source Code from GitHub
+<ol type="i">
+<li>Go to the installed directory of Cgywin</li>
+</ol>
+<ol start="2" type="1">
+<li><p><code>mkdir mypx4</code></p></li>
+<li><p><code>cd mypx4</code></p></li>
+<li><p><code>git clone https://github.com/PX4/Firmware.git Firmware</code></p></li>
+<li><p><code>cd Firmware</code></p></li>
+<li><p><code>git checkout v1.12.3</code></p></li>
+<li><p><code>git submodule update --init --recursive</code></p>
+<p>`</p></li>
+</ol></li>
+</ol>
 
 
 </section>

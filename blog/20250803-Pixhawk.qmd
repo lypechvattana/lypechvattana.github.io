@@ -10,8 +10,9 @@ author: LY Pechvattana
 1. MATLAB 2023b | [Document](https://www.mathworks.com/help/releases/R2023b/index.html)
 2. Visual Studio 2019 | [Download](https://visualstudio.microsoft.com/vs/older-downloads/)
 3. UAV Toolbox | [Download}](https://www.mathworks.com/hardware-support/px4-autopilots.html)
-4. PX4 Firmware v1.12.3 | [Download](https://github.com/PX4/PX4-windows-toolchain/releases/tag/v0.8)
-5. Git | [Download](https://git-scm.com/downloads)
+4. PX4 Firmware v1.12.3 (Cygwin) | [Download](https://github.com/PX4/PX4-windows-toolchain/releases/tag/v0.8)
+5. QGroundControl | [Download](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html)
+6. Git | [Download](https://git-scm.com/downloads)
 
 # II. Setup and Configuration
 ## 1. Installing Python 3.8.2
@@ -27,6 +28,19 @@ After installing UAV Toolbox, you can install Python 3.8.2 by
 ![4. Click 'Next'](/blog/blog-image/0004)
 
 ## 2. Use Cygwin Toolchain to Build PX4 on Windows
+
+1. Install Cygwin from [here](https://github.com/PX4/PX4-windows-toolchain/releases/tag/v0.8)
+2. Download PX4 Source Code from GitHub
+   i) Go to the installed directory of Cgywin
+   2) ` mkdir mypx4 `
+   3) ` cd mypx4 `
+   4) ` git clone https://github.com/PX4/Firmware.git Firmware `
+   5) ` cd Firmware `
+   6) ` git checkout v1.12.3 `
+   7) ` git submodule update --init --recursive `
+
+      `
+
 
 
 
