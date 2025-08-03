@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "LY Pechvattana",
     "section": "",
-    "text": "A guide for using Latex for Engineering Thesis\n\n\n1 min\n\n\n\nThesis\n\n\nEngineering\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nJul 25, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Using Pixhawk 4 with Simulink\n\n1 min\n\n\nTutorial\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nAug 3, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA guide for using Latex for Engineering Thesis\n\n1 min\n\n\nThesis\n\nEngineering\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nJul 25, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -47,5 +47,26 @@
     "title": "LY Pechvattana",
     "section": "Education",
     "text": "Education\nEramus+ Exchange, Ecam LaSalle | Lyon, France  A semester in Robotic and Automation Engineering | Nov 2022 - July 2024  • One semester exhcnage in France  • Award: Erasmus+ Scholarship | Jan 2024 - Jun 2024\nInstitute of Technology of Cambodia | Phnom Penh, Cambodia  Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024"
+  },
+  {
+    "objectID": "blog/20250803-Pixhawk.html",
+    "href": "blog/20250803-Pixhawk.html",
+    "title": "Using Pixhawk 4 with Simulink",
+    "section": "",
+    "text": "MATLAB 2023b | Document\nVisual Studio 2019 | Download\nUAV Toolbox | Download}\nPX4 Firmware v1.12.3 | Download\nGit | Download"
+  },
+  {
+    "objectID": "blog/20250803-Pixhawk.html#installing-python-3.8.2",
+    "href": "blog/20250803-Pixhawk.html#installing-python-3.8.2",
+    "title": "Using Pixhawk 4 with Simulink",
+    "section": "1. Installing Python 3.8.2",
+    "text": "1. Installing Python 3.8.2\nAfter installing UAV Toolbox, you can install Python 3.8.2 by\n\n\n\n1. Click Add-Ins then click ‘Manage Add-Ons’\n\n\n\n\n\n2. Click on ‘Setting’ icon to begin the setup ’\n\n\n\n\n\n3. If you have’t install Pyhton 3.8.2, you can select the first option ’\n\n\n\n\n\n4. Click ‘Next’"
+  },
+  {
+    "objectID": "blog/20250803-Pixhawk.html#use-cygwin-toolchain-to-build-px4-on-windows",
+    "href": "blog/20250803-Pixhawk.html#use-cygwin-toolchain-to-build-px4-on-windows",
+    "title": "Using Pixhawk 4 with Simulink",
+    "section": "2. Use Cygwin Toolchain to Build PX4 on Windows",
+    "text": "2. Use Cygwin Toolchain to Build PX4 on Windows"
   }
 ]
