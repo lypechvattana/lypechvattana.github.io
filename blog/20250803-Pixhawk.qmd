@@ -1,6 +1,6 @@
 ---
 title: "Using Pixhawk 4 with Simulink"
-image: /blog/blog-image/matlab_px4
+image: /blog/blog-image/matlab_px4.png
 date: 2025-08-03
 categories: [Tutorial]
 author: LY Pechvattana
