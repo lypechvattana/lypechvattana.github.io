@@ -1,0 +1,35 @@
+---
+title: "Using Pixhawk 4 with Simulink"
+image: /blog/blog-image/matlab_px4
+date: 2025-08-03
+categories: [Tutorial]
+author: LY Pechvattana
+---
+
+# I. Prerequisite
+1. MATLAB 2023b | [Document](https://www.mathworks.com/help/releases/R2023b/index.html)
+2. Visual Studio 2019 | [Download](https://visualstudio.microsoft.com/vs/older-downloads/)
+3. UAV Toolbox | [Download}](https://www.mathworks.com/hardware-support/px4-autopilots.html)
+4. PX4 Firmware v1.12.3 | [Download](https://github.com/PX4/PX4-windows-toolchain/releases/tag/v0.8)
+5. Git | [Download](https://git-scm.com/downloads)
+
+# II. Setup and Configuration
+## 1. Installing Python 3.8.2
+
+After installing UAV Toolbox, you can install Python 3.8.2 by
+
+![1. Click Add-Ins then click 'Manage Add-Ons'](/blog/blog-image/0001)
+
+![2. Click on 'Setting' icon to begin the setup '](/blog/blog-image/0002)
+
+![3. If you have't install Pyhton 3.8.2, you can select the first option '](/blog/blog-image/0003)
+
+![4. Click 'Next'](/blog/blog-image/0004)
+
+## 2. Use Cygwin Toolchain to Build PX4 on Windows
+
+
+
+
+
+

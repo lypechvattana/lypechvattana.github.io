@@ -29,10 +29,16 @@ Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024
 
 # Experience
 
+**DENSO Cambodia** <br>
+
+**Digital Transformation Officer (DX),TOTAL Industrial Engineer** *(Full-time)*  
+🗓 *Jun 2025 – Present* | 📍 *Phnom Penh, Cambodia*  
+• Identify Non Value Added (NVA) and implement DX technologies to eliminate wastes
+
 **Dynamics and Control Laboratory (DCLab)** <br>
-::::: {#special .sidebar}
+
 **Research Assistant** *(Full-time)*  
-🗓 *Aug 2024 – Present* | 📍 *Phnom Penh, Cambodia*  
+🗓 *Aug 2024 – Jun 2025* | 📍 *Phnom Penh, Cambodia*  
 • Project planning and tracking on rocket project development and launch 
 • Integrating avionic with sensors and communication to ground station <br>
 
@@ -42,7 +48,7 @@ Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024
 • Developing rocket structures for improved performance and stability
 • Conducting and documenting ground tests and flight tests
 • Integrating and managing ground and flight electronics
-:::::
+
 
 **Robotic Laboratory Intern** <br>
 Kasersart University, Bangkok, Thailand | June 2018 - Present<br>
