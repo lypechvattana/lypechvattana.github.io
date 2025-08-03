@@ -53,7 +53,7 @@
     "href": "blog/20250803-Pixhawk.html",
     "title": "Using Pixhawk 4 with Simulink",
     "section": "",
-    "text": "MATLAB 2023b | Document\nVisual Studio 2019 | Download\nUAV Toolbox | Download}\nPX4 Firmware v1.12.3 | Download\nGit | Download"
+    "text": "MATLAB 2023b | Document\nVisual Studio 2019 | Download\nUAV Toolbox | Download}\nPX4 Firmware v1.12.3 (Cygwin) | Download\nQGroundControl | Download\nGit | Download"
   },
   {
     "objectID": "blog/20250803-Pixhawk.html#installing-python-3.8.2",
@@ -67,6 +67,6 @@
     "href": "blog/20250803-Pixhawk.html#use-cygwin-toolchain-to-build-px4-on-windows",
     "title": "Using Pixhawk 4 with Simulink",
     "section": "2. Use Cygwin Toolchain to Build PX4 on Windows",
-    "text": "2. Use Cygwin Toolchain to Build PX4 on Windows"
+    "text": "2. Use Cygwin Toolchain to Build PX4 on Windows\n\nInstall Cygwin from here\nDownload PX4 Source Code from GitHub\n\nGo to the installed directory of Cgywin\n\n\nmkdir mypx4\ncd mypx4\ngit clone https://github.com/PX4/Firmware.git Firmware\ncd Firmware\ngit checkout v1.12.3\ngit submodule update --init --recursive\n`"
   }
 ]
