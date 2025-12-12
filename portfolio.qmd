@@ -846,7 +846,7 @@ format:
   <div class="achievement-card">
     <h4>🌐 IELTS C1 (Overall 7.5)</h4>
     <div class="achievement-issuer">Issued: April 8, 2024</div>
-    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+    <a href="https://drive.google.com/file/d/1b3HswURfrLf7VsYxCm6_-cf_Xie2fu0W/view?usp=sharing" class="btn btn-outline" style="width: 100%; justify-content: center;">
       <span>🔗 Verify Score</span>
     </a>
   </div>
@@ -854,7 +854,7 @@ format:
   <div class="achievement-card">
     <h4>🛰️ New Space: Access to Space - Basics</h4>
     <div class="achievement-issuer">ISAE-SUPAERO</div>
-    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+    <a href="https://www.coursera.org/account/accomplishments/verify/EBZ2GCA3BFA9" class="btn btn-outline" style="width: 100%; justify-content: center;">
       <span>🔗 View Certificate</span>
     </a>
   </div>
@@ -862,23 +862,15 @@ format:
   <div class="achievement-card">
     <h4>🧠 Neural Networks and Deep Learning</h4>
     <div class="achievement-issuer">DeepLearning.AI</div>
-    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+    <a href="https://www.coursera.org/account/accomplishments/verify/IBVX83N74JQY" class="btn btn-outline" style="width: 100%; justify-content: center;">
       <span>🔗 View Certificate</span>
     </a>
   </div>
 
   <div class="achievement-card">
-    <h4>📊 Supervised Machine Learning</h4>
+    <h4>Machine Learning Machine Learning Specialization</h4>
     <div class="achievement-issuer">DeepLearning.AI & Stanford</div>
-    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
-      <span>🔗 View Certificate</span>
-    </a>
-  </div>
-
-  <div class="achievement-card">
-    <h4>🤖 Unsupervised Learning & Reinforcement Learning</h4>
-    <div class="achievement-issuer">DeepLearning.AI & Stanford</div>
-    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+    <a href="https://www.coursera.org/account/accomplishments/specialization/KKQEG1SUZP4K" class="btn btn-outline" style="width: 100%; justify-content: center;">
       <span>🔗 View Certificate</span>
     </a>
   </div>
