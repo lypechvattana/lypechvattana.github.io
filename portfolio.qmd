@@ -867,7 +867,7 @@ format:
   </div>
 
   <div class="achievement-card">
-    <h4>Machine Learning Machine Learning Specialization</h4>
+    <h4>🤖 Machine Learning Specialization</h4>
     <div class="achievement-issuer">DeepLearning.AI & Stanford</div>
     <a href="https://www.coursera.org/account/accomplishments/specialization/KKQEG1SUZP4K" class="btn btn-outline" style="width: 100%; justify-content: center;">
       <span>🔗 View Certificate</span>
