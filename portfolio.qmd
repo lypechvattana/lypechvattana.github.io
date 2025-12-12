@@ -683,15 +683,6 @@ format:
     <div class="tech-stack">
       <strong>Technologies:</strong> Python • Embedded C • RF Communication • PCB Design • KiCAD • Data Visualization
     </div>
-    
-    <div class="project-links">
-      <a href="https://github.com/lypechvattana/ground-station" class="btn btn-primary">
-        <span>📂 View Code</span>
-      </a>
-      <a href="#" class="btn btn-outline">
-        <span>🖼️ View Photos</span>
-      </a>
-    </div>
   </div>
 </div>
 
