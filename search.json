@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "blog/2024-07-25-itc_thesis.html",
-    "href": "blog/2024-07-25-itc_thesis.html",
-    "title": "A guide for using Latex for Engineering Thesis",
+    "objectID": "blog/20250803-Pixhawk.html",
+    "href": "blog/20250803-Pixhawk.html",
+    "title": "Using Pixhawk 4 with Simulink",
     "section": "",
-    "text": "Before we begin, I’d like to clarify that this is personal advice based on my experience. Although all of the departments at Institute of Technology of Cambodia(ITC) follow the same format, differences do exist. This guide is mainly based on department of Industrial and Mechanical Engineering’s requirements."
+    "text": "MATLAB 2023b | Document\nVisual Studio 2019 | Download\nUAV Toolbox | Download}\nPX4 Firmware v1.12.3 (Cygwin) | Download\nQGroundControl | Download\nGit | Download"
   },
   {
-    "objectID": "blog/2024-07-25-itc_thesis.html#why-you-should-use-latex",
-    "href": "blog/2024-07-25-itc_thesis.html#why-you-should-use-latex",
-    "title": "A guide for using Latex for Engineering Thesis",
-    "section": "Why you should use Latex?",
-    "text": "Why you should use Latex?\nLatex is far more difficult to use than Microsoft Word, particularly for beginners. However, when writing an engineering thesis, where a slight shift in alignment by 1 point is considered a mistake, it is more convenient. Especially if the school has a pre-designed template, you don’t need much coding knowledge to use it. This guideline will explain a few commands you’ll need to know in order to complete your thesis."
+    "objectID": "blog/20250803-Pixhawk.html#installing-python-3.8.2",
+    "href": "blog/20250803-Pixhawk.html#installing-python-3.8.2",
+    "title": "Using Pixhawk 4 with Simulink",
+    "section": "1. Installing Python 3.8.2",
+    "text": "1. Installing Python 3.8.2\nAfter installing UAV Toolbox, you can install Python 3.8.2 by\n\n\n\n1. Click Add-Ins then click ‘Manage Add-Ons’\n\n\n\n\n\n2. Click on ‘Setting’ icon to begin the setup ’\n\n\n\n\n\n3. If you have’t install Pyhton 3.8.2, you can select the first option ’\n\n\n\n\n\n4. Click ‘Next’"
   },
   {
-    "objectID": "blog/2024-07-25-itc_thesis.html#the-author-is-lazy-he-will-finish-the-article-later.",
-    "href": "blog/2024-07-25-itc_thesis.html#the-author-is-lazy-he-will-finish-the-article-later.",
-    "title": "A guide for using Latex for Engineering Thesis",
-    "section": "[The Author is lazy, he will finish the article later.]",
-    "text": "[The Author is lazy, he will finish the article later.]"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "LY Pechvattana",
-    "section": "",
-    "text": "Using Pixhawk 4 with Simulink\n\n1 min\n\n\nTutorial\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nAug 3, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA guide for using Latex for Engineering Thesis\n\n1 min\n\n\nThesis\n\nEngineering\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nJul 25, 2024\n\n\n\n\n\n\nNo matching items"
+    "objectID": "blog/20250803-Pixhawk.html#use-cygwin-toolchain-to-build-px4-on-windows",
+    "href": "blog/20250803-Pixhawk.html#use-cygwin-toolchain-to-build-px4-on-windows",
+    "title": "Using Pixhawk 4 with Simulink",
+    "section": "2. Use Cygwin Toolchain to Build PX4 on Windows",
+    "text": "2. Use Cygwin Toolchain to Build PX4 on Windows\n\nInstall Cygwin from here\nDownload PX4 Source Code from GitHub\n\nGo to the installed directory of Cgywin\n\n\nmkdir mypx4\ncd mypx4\ngit clone https://github.com/PX4/Firmware.git Firmware\ncd Firmware\ngit checkout v1.12.3\ngit submodule update --init --recursive\n`"
   },
   {
     "objectID": "about.html",
@@ -49,24 +42,17 @@
     "text": "Education\nEramus+ Exchange, Ecam LaSalle | Lyon, France  A semester in Robotic and Automation Engineering | Nov 2022 - July 2024  • One semester exhcnage in France  • Award: Erasmus+ Scholarship | Jan 2024 - Jun 2024\nInstitute of Technology of Cambodia | Phnom Penh, Cambodia  Engineering Degree in Robotics and Automation Enginering | Nov 2019 - July 2024"
   },
   {
-    "objectID": "blog/20250803-Pixhawk.html",
-    "href": "blog/20250803-Pixhawk.html",
-    "title": "Using Pixhawk 4 with Simulink",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LY Pechvattana",
     "section": "",
-    "text": "MATLAB 2023b | Document\nVisual Studio 2019 | Download\nUAV Toolbox | Download}\nPX4 Firmware v1.12.3 (Cygwin) | Download\nQGroundControl | Download\nGit | Download"
+    "text": "Using Pixhawk 4 with Simulink\n\n1 min\n\n\nTutorial\n\n\n\n\n\n\n\nLY Pechvattana\n\n\nAug 3, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/20250803-Pixhawk.html#installing-python-3.8.2",
-    "href": "blog/20250803-Pixhawk.html#installing-python-3.8.2",
-    "title": "Using Pixhawk 4 with Simulink",
-    "section": "1. Installing Python 3.8.2",
-    "text": "1. Installing Python 3.8.2\nAfter installing UAV Toolbox, you can install Python 3.8.2 by\n\n\n\n1. Click Add-Ins then click ‘Manage Add-Ons’\n\n\n\n\n\n2. Click on ‘Setting’ icon to begin the setup ’\n\n\n\n\n\n3. If you have’t install Pyhton 3.8.2, you can select the first option ’\n\n\n\n\n\n4. Click ‘Next’"
-  },
-  {
-    "objectID": "blog/20250803-Pixhawk.html#use-cygwin-toolchain-to-build-px4-on-windows",
-    "href": "blog/20250803-Pixhawk.html#use-cygwin-toolchain-to-build-px4-on-windows",
-    "title": "Using Pixhawk 4 with Simulink",
-    "section": "2. Use Cygwin Toolchain to Build PX4 on Windows",
-    "text": "2. Use Cygwin Toolchain to Build PX4 on Windows\n\nInstall Cygwin from here\nDownload PX4 Source Code from GitHub\n\nGo to the installed directory of Cgywin\n\n\nmkdir mypx4\ncd mypx4\ngit clone https://github.com/PX4/Firmware.git Firmware\ncd Firmware\ngit checkout v1.12.3\ngit submodule update --init --recursive\n`"
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Portfolio\n  Showcasing my work in robotics engineering, autonomous systems, and embedded electronics. Each project demonstrates hands-on experience in designing, building, and deploying real-world robotic solutions.\n\n\n🚀 Featured Projects\n\n\n\n\n  \n    🚀\n  \n  \n    Rocket Flight Computer\n    \n      Developed Cambodia's first university rocket launch project with a comprehensive flight computer system for real-time attitude determination and state estimation using Extended Kalman Filter algorithms.\n    \n    \n    \n      \n        Implemented EKF for rocket attitude determination and unknown input thrust estimation\n        Designed and programmed rocket ignition electronic system with safety protocols\n        Built wireless data logging system with ground station communication\n        Custom PCB design for flight electronics integration using KiCAD\n        Successfully launched Cambodia's first university rocket (2024)\n      \n    \n    \n    \n      Technologies: C++ • Python • Extended Kalman Filter • Embedded C • PCB Design • KiCAD • Wireless Communication\n    \n    \n    \n      \n        📂 View Code\n      \n      \n        🎥 Watch Video\n      \n      \n        📄 Read Paper\n      \n    \n  \n\n\n\n  \n    🤖\n  \n  \n    Autonomous Mobile Robot (AMR) for Part Delivery\n    \n      Designing and developing an autonomous mobile robot system for automated part delivery in DENSO's manufacturing facility using ROS2 navigation stack and advanced SLAM algorithms.\n    \n    \n    \n      \n        Implementing ROS2 and Nav2 for robust autonomous navigation\n        SLAM integration for real-time environment mapping and localization\n        Path planning and dynamic obstacle avoidance algorithms\n        Multi-floor navigation with elevator integration\n        Fleet management system for coordinating multiple AMRs\n      \n    \n    \n    \n      Technologies: ROS2 • Nav2 • SLAM • Python • C++ • LiDAR • Computer Vision • Path Planning\n    \n    \n    \n      \n        📂 View Code\n      \n      \n        🎥 Demo Video\n      \n    \n  \n\n\n\n  \n    🏭\n  \n  \n    Automatic Guided Vehicle (AGV) Navigation System\n    \n      Developed a semi-autonomous navigation system for an industrial AGV during my internship at Kasetsart University, implementing ROS-based SLAM and LiDAR sensor fusion for warehouse automation.\n    \n    \n    \n      \n        Implemented ROS-based navigation stack for AGV control\n        LiDAR sensor integration for environment perception and mapping\n        SLAM algorithms for real-time localization in dynamic warehouses\n        Semi-autonomous path following and waypoint navigation\n        Obstacle detection and collision avoidance system\n      \n    \n    \n    \n      Technologies: ROS • SLAM • LiDAR • Python • C++ • Raspberry Pi • Sensor Fusion\n    \n    \n    \n      \n        📂 View Code\n      \n      \n        📊 View Results\n      \n    \n  \n\n\n\n  \n    ⚡\n  \n  \n    Rocket Ground Station Electronics\n    \n      Designed and built a comprehensive ground station system for rocket telemetry data reception, real-time monitoring, command transmission, and emergency abort capabilities.\n    \n    \n    \n      \n        Wireless telemetry system for real-time data transmission\n        Real-time data visualization dashboard for flight monitoring\n        Command and control protocol for rocket operations\n        Emergency abort and safety system integration\n        Data logging and post-flight analysis tools\n      \n    \n    \n    \n      Technologies: Python • Embedded C • RF Communication • PCB Design • KiCAD • Data Visualization\n    \n    \n    \n      \n        📂 View Code\n      \n      \n        🖼️ View Photos\n      \n    \n  \n\n\n\n\n🛠️ Technical Skills\n\n\n  \n    Programming Languages & Frameworks\n    \n      ROS\n      ROS2\n      Python\n      C++\n      MATLAB\n      Simulink\n      LaTeX\n    \n  \n\n  \n    CAD & Design Software\n    \n      SolidWorks\n      AutoCAD\n      KiCAD\n      3D Printing\n      PCB Design\n    \n  \n\n  \n    Embedded Systems & Hardware\n    \n      Raspberry Pi\n      Radxa\n      Arduino\n      Pixhawk\n      Microcontrollers\n    \n  \n\n  \n    Robotics & Control Systems\n    \n      SLAM\n      Nav2\n      Extended Kalman Filter\n      Path Planning\n      Computer Vision\n      LiDAR Processing\n      Sensor Fusion\n      Control Theory\n    \n  \n\n  \n    Enterprise Applications\n    \n      MS Office 365\n      Power BI\n      Power Apps\n      Photoshop\n      Illustrator\n    \n  \n\n\n💼 Professional Experience\n\n\n  \n    \n    Total Industrial Engineering Officer\n    DENSO (Cambodia) Co., Ltd., Phnom Penh\n    June 2025 - Present\n    \n      Designing and developing autonomous mobile robot (AMR) for automated part delivery\n      Implementing ROS2 and Nav2 stack for robust navigation in manufacturing environments\n      Leading SLAM integration for dynamic factory floor mapping\n      Optimizing production workflows through robotic automation\n    \n  \n\n  \n    \n    Research Assistant\n    Dynamics and Control Laboratory (DCLab), ITC\n    August 2024 - June 2025\n    \n      Advanced research on rocket attitude determination using Extended Kalman Filter\n      Published research paper on unknown input thrust estimation\n      Mentored undergraduate students on robotics and control systems projects\n    \n  \n\n  \n    \n    Robotic Engineer Intern\n    Kasetsart University, Bangkok, Thailand\n    June 2023 - September 2023\n    \n      Developed semi-autonomous navigation for AGV using ROS and SLAM\n      Integrated LiDAR sensors for real-time environment mapping\n      Implemented obstacle detection and path planning algorithms\n      Collaborated with international research team on warehouse automation\n    \n  \n\n  \n    \n    Undergraduate Research Student\n    Dynamics and Control Laboratory (DCLab), ITC\n    October 2020 - July 2024\n    \n      Contributed to Cambodia's first university rocket launch project\n      Developed rocket flight computer with EKF-based state estimation\n      Designed ignition electronics and ground station communication systems\n      Presented research at international conferences\n    \n  \n\n\n📚 Publications\n\n\n  Unknown Input Thrust Estimation using Extended Kalman Filter for a Sounding Rocket\n  \n    The 6th KU SRC International Conference 2024 E-Proceeding (Full Paper)\n  \n  \n    This paper presents a novel approach to estimating unknown input thrust for sounding rockets using Extended Kalman Filter algorithms, enabling improved flight control and trajectory prediction.\n  \n  \n    \n      📄 Read Full Paper\n    \n    \n      📊 View Presentation\n    \n  \n\n\n🏆 Achievements & Certifications\n\n\n  \n    🎓 Erasmus+ Scholarship\n    Exchange study at Ecam LaSalle, Lyon, France (Jan-Jun 2023)\n    \n      🔗 View Certificate\n    \n  \n\n  \n    🚀 First University Rocket Launch in Cambodia\n    Led team that achieved historic milestone (2024)\n    \n      📰 Read More\n    \n  \n\n  \n    🌐 IELTS C1 (Overall 7.5)\n    Issued: April 8, 2024\n    \n      🔗 Verify Score\n    \n  \n\n  \n    🛰️ New Space: Access to Space - Basics\n    ISAE-SUPAERO\n    \n      🔗 View Certificate\n    \n  \n\n  \n    🧠 Neural Networks and Deep Learning\n    DeepLearning.AI\n    \n      🔗 View Certificate\n    \n  \n\n  \n    📊 Supervised Machine Learning\n    DeepLearning.AI & Stanford\n    \n      🔗 View Certificate\n    \n  \n\n  \n    🤖 Unsupervised Learning & Reinforcement Learning\n    DeepLearning.AI & Stanford\n    \n      🔗 View Certificate\n    \n  \n\n\n\n  Let's Connect\n  Interested in robotics, autonomous systems, or looking to collaborate? I'd love to hear from you!\n  \n    \n      📧 Email Me\n    \n    \n      💻 GitHub\n    \n    \n      💼 LinkedIn\n    \n    \n      🌐 Website"
   }
 ]
