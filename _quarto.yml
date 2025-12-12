@@ -9,6 +9,8 @@ website:
     left:
       - href: about.qmd
         text: About
+      - href: portfolio.qmd
+        text: Portfolio
 
 format:
   html:

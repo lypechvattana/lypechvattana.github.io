@@ -1,0 +1,772 @@
+---
+title: "Portfolio"
+format:
+  html:
+    toc: false
+    page-layout: full
+    css: portfolio-styles.css
+---
+
+```{=html}
+<style>
+:root {
+  --primary-color: #4a5c7a;
+  --accent-color: #6b7fa8;
+  --text-color: #2c3e50;
+  --text-muted: #7f8c8d;
+  --bg-light: #f8f9fa;
+  --border-color: #e1e8ed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-intro {
+  text-align: center;
+  padding: 3rem 2rem;
+  margin-bottom: 4rem;
+}
+
+.portfolio-intro h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.portfolio-intro p {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin: 4rem 0 2rem 0;
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.project-card {
+  background: white;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(74, 92, 122, 0.15);
+  border-color: var(--accent-color);
+}
+
+.project-image {
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(135deg, var(--bg-light) 0%, #e8ecf1 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.project-content {
+  padding: 2rem;
+}
+
+.project-content h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.project-description {
+  color: var(--text-color);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.project-highlights {
+  background: var(--bg-light);
+  border-left: 4px solid var(--accent-color);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+.project-highlights ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-highlights li {
+  color: var(--text-color);
+  padding: 0.4rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.project-highlights li:before {
+  content: "▸";
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.tech-stack {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin: 1.5rem 0;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.3rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white !important;
+  border: 2px solid var(--primary-color);
+}
+
+.btn-primary:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: white;
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color);
+}
+
+.btn-outline:hover {
+  background: var(--primary-color);
+  color: white !important;
+}
+
+.skills-section {
+  background: white;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+}
+
+.skill-category:last-child {
+  margin-bottom: 0;
+}
+
+.skill-category h3 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-badge {
+  background: var(--bg-light);
+  border: 2px solid var(--border-color);
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.experience-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 3rem;
+  border-left: 3px solid var(--border-color);
+  padding-left: 2.5rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+  border-left: none;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -9px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px var(--border-color);
+}
+
+.timeline-item h3 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.timeline-company {
+  color: var(--text-color);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-date {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.timeline-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.timeline-item li {
+  color: var(--text-color);
+  padding: 0.4rem 0;
+  line-height: 1.7;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.timeline-item li:before {
+  content: "▸";
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.achievement-card {
+  background: white;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(74, 92, 122, 0.1);
+}
+
+.achievement-card h4 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.achievement-issuer {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.publication-card {
+  background: white;
+  border: 2px solid var(--border-color);
+  border-left: 5px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.publication-card h3 {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.publication-meta {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--bg-light);
+  border-radius: 12px;
+  margin-top: 4rem;
+}
+
+.contact-section h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.contact-section p {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .portfolio-intro h1 {
+    font-size: 2rem;
+  }
+  
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="portfolio-intro">
+  <h1>Portfolio</h1>
+  <p>Showcasing my work in robotics engineering, autonomous systems, and embedded electronics. Each project demonstrates hands-on experience in designing, building, and deploying real-world robotic solutions.</p>
+</div>
+
+<h2 class="section-title">🚀 Featured Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+  <div class="project-image">
+    🚀
+  </div>
+  <div class="project-content">
+    <h3>Rocket Flight Computer</h3>
+    <p class="project-description">
+      Developed Cambodia's first university rocket launch project with a comprehensive flight computer system for real-time attitude determination and state estimation using Extended Kalman Filter algorithms.
+    </p>
+    
+    <div class="project-highlights">
+      <ul>
+        <li>Implemented EKF for rocket attitude determination and unknown input thrust estimation</li>
+        <li>Designed and programmed rocket ignition electronic system with safety protocols</li>
+        <li>Built wireless data logging system with ground station communication</li>
+        <li>Custom PCB design for flight electronics integration using KiCAD</li>
+        <li>Successfully launched Cambodia's first university rocket (2024)</li>
+      </ul>
+    </div>
+    
+    <div class="tech-stack">
+      <strong>Technologies:</strong> C++ • Python • Extended Kalman Filter • Embedded C • PCB Design • KiCAD • Wireless Communication
+    </div>
+    
+    <div class="project-links">
+      <a href="https://github.com/lypechvattana/rocket-flight-computer" class="btn btn-primary">
+        <span>📂 View Code</span>
+      </a>
+      <a href="#" class="btn btn-outline">
+        <span>🎥 Watch Video</span>
+      </a>
+      <a href="#" class="btn btn-outline">
+        <span>📄 Read Paper</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-image">
+    🤖
+  </div>
+  <div class="project-content">
+    <h3>Autonomous Mobile Robot (AMR) for Part Delivery</h3>
+    <p class="project-description">
+      Designing and developing an autonomous mobile robot system for automated part delivery in DENSO's manufacturing facility using ROS2 navigation stack and advanced SLAM algorithms.
+    </p>
+    
+    <div class="project-highlights">
+      <ul>
+        <li>Implementing ROS2 and Nav2 for robust autonomous navigation</li>
+        <li>SLAM integration for real-time environment mapping and localization</li>
+        <li>Path planning and dynamic obstacle avoidance algorithms</li>
+        <li>Multi-floor navigation with elevator integration</li>
+        <li>Fleet management system for coordinating multiple AMRs</li>
+      </ul>
+    </div>
+    
+    <div class="tech-stack">
+      <strong>Technologies:</strong> ROS2 • Nav2 • SLAM • Python • C++ • LiDAR • Computer Vision • Path Planning
+    </div>
+    
+    <div class="project-links">
+      <a href="https://github.com/lypechvattana/amr-delivery" class="btn btn-primary">
+        <span>📂 View Code</span>
+      </a>
+      <a href="#" class="btn btn-outline">
+        <span>🎥 Demo Video</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-image">
+    🏭
+  </div>
+  <div class="project-content">
+    <h3>Automatic Guided Vehicle (AGV) Navigation System</h3>
+    <p class="project-description">
+      Developed a semi-autonomous navigation system for an industrial AGV during my internship at Kasetsart University, implementing ROS-based SLAM and LiDAR sensor fusion for warehouse automation.
+    </p>
+    
+    <div class="project-highlights">
+      <ul>
+        <li>Implemented ROS-based navigation stack for AGV control</li>
+        <li>LiDAR sensor integration for environment perception and mapping</li>
+        <li>SLAM algorithms for real-time localization in dynamic warehouses</li>
+        <li>Semi-autonomous path following and waypoint navigation</li>
+        <li>Obstacle detection and collision avoidance system</li>
+      </ul>
+    </div>
+    
+    <div class="tech-stack">
+      <strong>Technologies:</strong> ROS • SLAM • LiDAR • Python • C++ • Raspberry Pi • Sensor Fusion
+    </div>
+    
+    <div class="project-links">
+      <a href="https://github.com/lypechvattana/agv-navigation" class="btn btn-primary">
+        <span>📂 View Code</span>
+      </a>
+      <a href="#" class="btn btn-outline">
+        <span>📊 View Results</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-image">
+    ⚡
+  </div>
+  <div class="project-content">
+    <h3>Rocket Ground Station Electronics</h3>
+    <p class="project-description">
+      Designed and built a comprehensive ground station system for rocket telemetry data reception, real-time monitoring, command transmission, and emergency abort capabilities.
+    </p>
+    
+    <div class="project-highlights">
+      <ul>
+        <li>Wireless telemetry system for real-time data transmission</li>
+        <li>Real-time data visualization dashboard for flight monitoring</li>
+        <li>Command and control protocol for rocket operations</li>
+        <li>Emergency abort and safety system integration</li>
+        <li>Data logging and post-flight analysis tools</li>
+      </ul>
+    </div>
+    
+    <div class="tech-stack">
+      <strong>Technologies:</strong> Python • Embedded C • RF Communication • PCB Design • KiCAD • Data Visualization
+    </div>
+    
+    <div class="project-links">
+      <a href="https://github.com/lypechvattana/ground-station" class="btn btn-primary">
+        <span>📂 View Code</span>
+      </a>
+      <a href="#" class="btn btn-outline">
+        <span>🖼️ View Photos</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<h2 class="section-title">🛠️ Technical Skills</h2>
+
+<div class="skills-section">
+  <div class="skill-category">
+    <h3>Programming Languages & Frameworks</h3>
+    <div class="skill-tags">
+      <span class="skill-badge">ROS</span>
+      <span class="skill-badge">ROS2</span>
+      <span class="skill-badge">Python</span>
+      <span class="skill-badge">C++</span>
+      <span class="skill-badge">MATLAB</span>
+      <span class="skill-badge">Simulink</span>
+      <span class="skill-badge">LaTeX</span>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>CAD & Design Software</h3>
+    <div class="skill-tags">
+      <span class="skill-badge">SolidWorks</span>
+      <span class="skill-badge">AutoCAD</span>
+      <span class="skill-badge">KiCAD</span>
+      <span class="skill-badge">3D Printing</span>
+      <span class="skill-badge">PCB Design</span>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Embedded Systems & Hardware</h3>
+    <div class="skill-tags">
+      <span class="skill-badge">Raspberry Pi</span>
+      <span class="skill-badge">Radxa</span>
+      <span class="skill-badge">Arduino</span>
+      <span class="skill-badge">Pixhawk</span>
+      <span class="skill-badge">Microcontrollers</span>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Robotics & Control Systems</h3>
+    <div class="skill-tags">
+      <span class="skill-badge">SLAM</span>
+      <span class="skill-badge">Nav2</span>
+      <span class="skill-badge">Extended Kalman Filter</span>
+      <span class="skill-badge">Path Planning</span>
+      <span class="skill-badge">Computer Vision</span>
+      <span class="skill-badge">LiDAR Processing</span>
+      <span class="skill-badge">Sensor Fusion</span>
+      <span class="skill-badge">Control Theory</span>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Enterprise Applications</h3>
+    <div class="skill-tags">
+      <span class="skill-badge">MS Office 365</span>
+      <span class="skill-badge">Power BI</span>
+      <span class="skill-badge">Power Apps</span>
+      <span class="skill-badge">Photoshop</span>
+      <span class="skill-badge">Illustrator</span>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-title">💼 Professional Experience</h2>
+
+<div class="experience-timeline">
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <h3>Total Industrial Engineering Officer</h3>
+    <div class="timeline-company">DENSO (Cambodia) Co., Ltd., Phnom Penh</div>
+    <div class="timeline-date">June 2025 - Present</div>
+    <ul>
+      <li>Designing and developing autonomous mobile robot (AMR) for automated part delivery</li>
+      <li>Implementing ROS2 and Nav2 stack for robust navigation in manufacturing environments</li>
+      <li>Leading SLAM integration for dynamic factory floor mapping</li>
+      <li>Optimizing production workflows through robotic automation</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <h3>Research Assistant</h3>
+    <div class="timeline-company">Dynamics and Control Laboratory (DCLab), ITC</div>
+    <div class="timeline-date">August 2024 - June 2025</div>
+    <ul>
+      <li>Advanced research on rocket attitude determination using Extended Kalman Filter</li>
+      <li>Published research paper on unknown input thrust estimation</li>
+      <li>Mentored undergraduate students on robotics and control systems projects</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <h3>Robotic Engineer Intern</h3>
+    <div class="timeline-company">Kasetsart University, Bangkok, Thailand</div>
+    <div class="timeline-date">June 2023 - September 2023</div>
+    <ul>
+      <li>Developed semi-autonomous navigation for AGV using ROS and SLAM</li>
+      <li>Integrated LiDAR sensors for real-time environment mapping</li>
+      <li>Implemented obstacle detection and path planning algorithms</li>
+      <li>Collaborated with international research team on warehouse automation</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <h3>Undergraduate Research Student</h3>
+    <div class="timeline-company">Dynamics and Control Laboratory (DCLab), ITC</div>
+    <div class="timeline-date">October 2020 - July 2024</div>
+    <ul>
+      <li>Contributed to Cambodia's first university rocket launch project</li>
+      <li>Developed rocket flight computer with EKF-based state estimation</li>
+      <li>Designed ignition electronics and ground station communication systems</li>
+      <li>Presented research at international conferences</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="section-title">📚 Publications</h2>
+
+<div class="publication-card">
+  <h3>Unknown Input Thrust Estimation using Extended Kalman Filter for a Sounding Rocket</h3>
+  <div class="publication-meta">
+    The 6th KU SRC International Conference 2024 E-Proceeding (Full Paper)
+  </div>
+  <p style="color: var(--text-color); line-height: 1.7; margin-bottom: 1rem;">
+    This paper presents a novel approach to estimating unknown input thrust for sounding rockets using Extended Kalman Filter algorithms, enabling improved flight control and trajectory prediction.
+  </p>
+  <div class="project-links">
+    <a href="#" class="btn btn-primary">
+      <span>📄 Read Full Paper</span>
+    </a>
+    <a href="#" class="btn btn-outline">
+      <span>📊 View Presentation</span>
+    </a>
+  </div>
+</div>
+
+<h2 class="section-title">🏆 Achievements & Certifications</h2>
+
+<div class="achievements-grid">
+  <div class="achievement-card">
+    <h4>🎓 Erasmus+ Scholarship</h4>
+    <div class="achievement-issuer">Exchange study at Ecam LaSalle, Lyon, France (Jan-Jun 2023)</div>
+    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+      <span>🔗 View Certificate</span>
+    </a>
+  </div>
+
+  <div class="achievement-card">
+    <h4>🚀 First University Rocket Launch in Cambodia</h4>
+    <div class="achievement-issuer">Led team that achieved historic milestone (2024)</div>
+    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+      <span>📰 Read More</span>
+    </a>
+  </div>
+
+  <div class="achievement-card">
+    <h4>🌐 IELTS C1 (Overall 7.5)</h4>
+    <div class="achievement-issuer">Issued: April 8, 2024</div>
+    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+      <span>🔗 Verify Score</span>
+    </a>
+  </div>
+
+  <div class="achievement-card">
+    <h4>🛰️ New Space: Access to Space - Basics</h4>
+    <div class="achievement-issuer">ISAE-SUPAERO</div>
+    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+      <span>🔗 View Certificate</span>
+    </a>
+  </div>
+
+  <div class="achievement-card">
+    <h4>🧠 Neural Networks and Deep Learning</h4>
+    <div class="achievement-issuer">DeepLearning.AI</div>
+    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+      <span>🔗 View Certificate</span>
+    </a>
+  </div>
+
+  <div class="achievement-card">
+    <h4>📊 Supervised Machine Learning</h4>
+    <div class="achievement-issuer">DeepLearning.AI & Stanford</div>
+    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+      <span>🔗 View Certificate</span>
+    </a>
+  </div>
+
+  <div class="achievement-card">
+    <h4>🤖 Unsupervised Learning & Reinforcement Learning</h4>
+    <div class="achievement-issuer">DeepLearning.AI & Stanford</div>
+    <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+      <span>🔗 View Certificate</span>
+    </a>
+  </div>
+</div>
+
+<div class="contact-section">
+  <h2>Let's Connect</h2>
+  <p>Interested in robotics, autonomous systems, or looking to collaborate? I'd love to hear from you!</p>
+  <div class="contact-links">
+    <a href="mailto:lypechvattana@gmail.com" class="btn btn-primary">
+      <span>📧 Email Me</span>
+    </a>
+    <a href="https://github.com/lypechvattana" class="btn btn-primary">
+      <span>💻 GitHub</span>
+    </a>
+    <a href="https://linkedin.com/in/ly-pechvattana/" class="btn btn-primary">
+      <span>💼 LinkedIn</span>
+    </a>
+    <a href="https://lypechvattana.github.io/" class="btn btn-outline">
+      <span>🌐 Website</span>
+    </a>
+  </div>
+</div>
+```
